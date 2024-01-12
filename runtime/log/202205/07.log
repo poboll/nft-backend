@@ -1,0 +1,1443 @@
+---------------------------------------------------------------
+[ 2022-05-07T11:48:03+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/index/bannerList?type=1
+[运行时间：0.111963s] [吞吐率：8.93req/s] [内存消耗：3,961.27kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003863s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000605s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001838s ]
+[ info ] [ RUN ] app\api\controller\Index->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:03+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=0&page=1&pagesize=15
+[运行时间：0.126868s] [吞吐率：7.88req/s] [内存消耗：4,230.01kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003874s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000610s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '0',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001898s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:03}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:03}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:03+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsCategoryList
+[运行时间：0.107940s] [吞吐率：9.26req/s] [内存消耗：4,211.08kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003162s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000728s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsCategoryList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001504s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:03}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:03}
+[ info ] [ RUN ] app\api\controller\Goods->goodsCategoryList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:22+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/favicon.ico
+[运行时间：0.069754s] [吞吐率：14.34req/s] [内存消耗：2,240.34kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000541s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/avif,image/webp,image/wxpic,image/tpg,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:32+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/index/bannerList?type=2
+[运行时间：0.077278s] [吞吐率：12.94req/s] [内存消耗：3,960.45kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003316s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000457s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001773s ]
+[ info ] [ RUN ] app\api\controller\Index->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:32+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsCategoryList
+[运行时间：0.096173s] [吞吐率：10.40req/s] [内存消耗：4,211.08kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002269s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsCategoryList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001414s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:32}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:32}
+[ info ] [ RUN ] app\api\controller\Goods->goodsCategoryList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:32+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/order/memberGoodsList?goods_category_id=0&page=1&pagesize=15
+[运行时间：0.117601s] [吞吐率：8.50req/s] [内存消耗：4,256.62kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002475s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000372s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'memberGoodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '0',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001033s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:32}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:32}
+[ info ] [ RUN ] app\api\controller\Order->memberGoodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:36+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/manghe/goodsMangheList?page=1&pagesize=15
+[运行时间：0.077788s] [吞吐率：12.86req/s] [内存消耗：4,040.65kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002335s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000377s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'manghe',
+    2 => 'goodsMangheList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001010s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Manghe->goodsMangheList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Manghe.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:36+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/manghe/bannerList
+[运行时间：0.074704s] [吞吐率：13.39req/s] [内存消耗：4,026.17kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002672s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000392s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'manghe',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002784s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Manghe->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Manghe.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:46+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/user/userInfo
+[运行时间：0.102505s] [吞吐率：9.76req/s] [内存消耗：4,038.81kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002583s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000449s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001527s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->userInfo[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:52+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/order/collectionCount
+[运行时间：0.071939s] [吞吐率：13.90req/s] [内存消耗：4,212.44kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002966s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000450s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'collectionCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001297s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:52}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:52}
+[ info ] [ RUN ] app\api\controller\Order->collectionCount[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:52+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/account/account
+[运行时间：0.097095s] [吞吐率：10.30req/s] [内存消耗：4,014.09kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002891s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000506s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'account',
+    2 => 'account',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001308s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Account->account[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:48:52+08:00 ] 192.168.31.221 POST 4j2456o051.wicp.vip/api/order/collectionList
+[运行时间：0.116675s] [吞吐率：8.57req/s] [内存消耗：4,263.88kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002613s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000482s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'collectionList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'origin' => 'http://4j2456o051.wicp.vip',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'content-length' => '8',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001145s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:48:52}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:48:52}
+[ info ] [ RUN ] app\api\controller\Order->collectionList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:49:07+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/index/bannerList?type=1
+[运行时间：0.088678s] [吞吐率：11.28req/s] [内存消耗：3,961.28kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002633s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000460s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001158s ]
+[ info ] [ RUN ] app\api\controller\Index->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:49:07+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsCategoryList
+[运行时间：0.103794s] [吞吐率：9.63req/s] [内存消耗：4,211.08kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002857s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000434s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsCategoryList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001303s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:49:07}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:49:07}
+[ info ] [ RUN ] app\api\controller\Goods->goodsCategoryList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T11:49:07+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=0&page=1&pagesize=15
+[运行时间：0.104964s] [吞吐率：9.53req/s] [内存消耗：4,230.01kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002674s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000467s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '0',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001134s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 11:49:07}
+[ info ] 单列模式实例创建成功:{2022-05-07 11:49:07}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T13:54:36+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/admin8.php/news/index?ref=addtabs
+[运行时间：0.061118s] [吞吐率：16.36req/s] [内存消耗：3,242.49kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002818s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000447s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001080s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000455s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:13+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/index/bannerList?type=1
+[运行时间：0.066342s] [吞吐率：15.07req/s] [内存消耗：3,961.28kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002949s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000532s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001603s ]
+[ info ] [ RUN ] app\api\controller\Index->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:13+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=0&page=1&pagesize=15
+[运行时间：0.099366s] [吞吐率：10.06req/s] [内存消耗：4,230.01kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002929s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000614s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '0',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002068s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:13}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:13}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:13+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsCategoryList
+[运行时间：0.088124s] [吞吐率：11.35req/s] [内存消耗：4,211.08kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002603s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsCategoryList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001144s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:13}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:13}
+[ info ] [ RUN ] app\api\controller\Goods->goodsCategoryList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:26+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsDetail?id=1
+[运行时间：0.086679s] [吞吐率：11.54req/s] [内存消耗：4,219.97kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002907s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000451s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001109s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:26}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:26}
+[ info ] [ RUN ] app\api\controller\Goods->goodsDetail[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:31+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/h5/undefined
+[运行时间：0.047345s] [吞吐率：21.12req/s] [内存消耗：2,240.41kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002643s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000457s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => 'undefined',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/avif,image/webp,image/wxpic,image/tpg,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:31+08:00 ] 192.168.31.221 POST 4j2456o051.wicp.vip/api/login/config
+[运行时间：0.051206s] [吞吐率：19.53req/s] [内存消耗：3,929.33kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003243s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000369s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'origin' => 'http://4j2456o051.wicp.vip',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000998s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Login->config[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:34+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/favicon.ico
+[运行时间：0.040818s] [吞吐率：24.50req/s] [内存消耗：2,240.34kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002152s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000363s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/avif,image/webp,image/wxpic,image/tpg,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:40+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=19&page=1&pagesize=15
+[运行时间：0.096950s] [吞吐率：10.31req/s] [内存消耗：4,164.71kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002276s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000338s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '19',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000978s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:40}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:40}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:43+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=17&page=1&pagesize=15
+[运行时间：0.098217s] [吞吐率：10.18req/s] [内存消耗：4,228.63kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002284s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000348s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '17',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000985s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:43}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:43}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:44+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=16&page=1&pagesize=15
+[运行时间：0.083932s] [吞吐率：11.91req/s] [内存消耗：4,211.05kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002447s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000374s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '16',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001097s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:44}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:44}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:46+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsList?goods_category_id=20&page=1&pagesize=15
+[运行时间：0.083229s] [吞吐率：12.02req/s] [内存消耗：4,164.71kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002280s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000317s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '20',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000954s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:46}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:46}
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:48+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/index/bannerList?type=2
+[运行时间：0.072540s] [吞吐率：13.79req/s] [内存消耗：3,960.45kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002331s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000310s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000942s ]
+[ info ] [ RUN ] app\api\controller\Index->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:48+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/goods/goodsCategoryList
+[运行时间：0.088682s] [吞吐率：11.28req/s] [内存消耗：4,211.08kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002375s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000355s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsCategoryList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000934s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:48}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:48}
+[ info ] [ RUN ] app\api\controller\Goods->goodsCategoryList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:49+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/order/memberGoodsList?goods_category_id=0&page=1&pagesize=15
+[运行时间：0.101827s] [吞吐率：9.82req/s] [内存消耗：4,256.62kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002357s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000383s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'memberGoodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'goods_category_id' => '0',
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001016s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:29:49}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:29:49}
+[ info ] [ RUN ] app\api\controller\Order->memberGoodsList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:52+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/manghe/bannerList
+[运行时间：0.055131s] [吞吐率：18.14req/s] [内存消耗：4,026.17kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002159s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'manghe',
+    2 => 'bannerList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001275s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Manghe->bannerList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Manghe.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:52+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/manghe/goodsMangheList?page=1&pagesize=15
+[运行时间：0.079787s] [吞吐率：12.53req/s] [内存消耗：4,040.65kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002492s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000350s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'manghe',
+    2 => 'goodsMangheList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '15',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001007s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Manghe->goodsMangheList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Manghe.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:29:58+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/user/userInfo
+[运行时间：0.082297s] [吞吐率：12.15req/s] [内存消耗：4,038.81kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002366s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000367s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'userInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000990s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->userInfo[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:30:02+08:00 ] 192.168.31.221 POST 4j2456o051.wicp.vip/api/order/collectionList
+[运行时间：0.099271s] [吞吐率：10.07req/s] [内存消耗：4,263.88kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002404s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000372s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'collectionList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'origin' => 'http://4j2456o051.wicp.vip',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'content-length' => '8',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001015s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:30:02}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:30:02}
+[ info ] [ RUN ] app\api\controller\Order->collectionList[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:30:02+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/account/account
+[运行时间：0.074778s] [吞吐率：13.37req/s] [内存消耗：4,014.09kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002317s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000340s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'account',
+    2 => 'account',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000975s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Account->account[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-07T14:30:04+08:00 ] 192.168.31.221 GET 4j2456o051.wicp.vip/api/order/collectionCount
+[运行时间：0.097887s] [吞吐率：10.22req/s] [内存消耗：4,212.44kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002323s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000340s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'order',
+    2 => 'collectionCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://4j2456o051.wicp.vip/h5/',
+  'x-requested-with' => 'com.tencent.mm',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; V1829A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3211 MMWEBSDK/20220303 Mobile Safari/537.36 MMWEBID/5701 MicroMessenger/8.0.21.2120(0x28001557) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json',
+  'connection' => 'keep-alive',
+  'host' => '4j2456o051.wicp.vip',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000969s ]
+[ info ] [ DB ] INIT mysql
+[ info ] redis创建连接成功:{2022-05-07 14:30:04}
+[ info ] 单列模式实例创建成功:{2022-05-07 14:30:04}
+[ info ] [ RUN ] app\api\controller\Order->collectionCount[ D:\phpstudy_pro\WWW\sz\shuzicangpin_admin\application\api\controller\Order.php ]
+[ info ] [ LOG ] INIT File
